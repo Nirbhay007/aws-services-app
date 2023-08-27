@@ -1,17 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T05:29:28.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sl699pFlOjEGEEyunNeT" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-27T05:31:59.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="07nCVtC1OQUGoa4mjsJF" version="21.6.9" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="733" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="REQUEST" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.1626" y="10" relative="1" as="geometry">
-            <mxPoint x="80" y="139.57999999999998" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="190" y="129.58" />
-            </Array>
-            <mxPoint x="190" y="130" as="targetPoint" />
-            <mxPoint as="offset" />
+        <mxCell id="JtUG_QcV3hVUg0_UjBW6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JtUG_QcV3hVUg0_UjBW6-2" target="JtUG_QcV3hVUg0_UjBW6-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JtUG_QcV3hVUg0_UjBW6-2" value="AWS Lambda" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -33,8 +28,22 @@
         <mxCell id="JtUG_QcV3hVUg0_UjBW6-4" value="API GATEWAY" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="190" y="75" width="120" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="JtUG_QcV3hVUg0_UjBW6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JtUG_QcV3hVUg0_UjBW6-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JtUG_QcV3hVUg0_UjBW6-8" value="HOSTED ON AMPLIFY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JtUG_QcV3hVUg0_UjBW6-10" value="user makes a request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="298" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JtUG_QcV3hVUg0_UjBW6-11" value="Calls the lambda function&lt;br&gt;&amp;nbsp;with the required input" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="155" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JtUG_QcV3hVUg0_UjBW6-13" value="SAVES DATA to&lt;br&gt;DYNAMO DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
