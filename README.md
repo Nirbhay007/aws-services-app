@@ -6,6 +6,6 @@
 - AWS Amplify 
 - API Gateway
 - Lambda function
--- Dynamo DB (A NOSQL Database for storing info)
+- Dynamo DB (A NOSQL Database for storing info)
 
 ### Connecting all this with client side code 
